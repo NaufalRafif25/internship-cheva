@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kontak SG Malam Pertama</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+        <!== Menu website ==>
+            <div>
+                <a href="../index.html">Home</a>
+                <a href="kontak.html">Kontak</a>
+            </div>
+
+        
+        <!== Bagian Awal, isinya tag heading ==>
+        <div>
+            <h1>Kontak Sekolah Koding</h1>
+            <h2>Tutorial online untuk belajar membuat website</h2>
+            <p>Selamat Datang di Website <br> Sekolah Koding</p>
+        </div>
+
+        <!== membuat form==>
+        <form>
+            <fieldset>
+                <legend>Nama dan Pesan</legend>
+                <label for="nama_user">Nama</label>
+                <input type="text" placeholder="Nama user" value="Nama Anda" id="nama_user">
+                <br>
+                <label for="pesan_user">Pesan</label>
+                <br>
+                <textarea cols="100" rows="7" id="pesan_user">Pesan saya adalah.....</textarea>
+                <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pilihan Data</legend>
+                <label>Hobi</label><br>
+                <input type="checkbox" name="hobi_user" value="0">Basket
+                <input type="checkbox" name="hobi_user" value="1" checked>Berenang
+                <input type="checkbox" name="hobi_user" value="2">Voli
+                <br>
+                <label>Gender</label><br>
+                <input type="radio" name="gender_user" value="0" checked>Pria
+                <input type="radio" name="gender_user" value="1">Wanita
+                <br>
+            
+                <label>Pelajaran</label>
+                <select>
+                    <optgroup label="Front-End">
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                    </optgroup>
+                    <optgroup label="Back-End">
+                        <option value="js">JavaScript</option>
+                        <option value="3">Database</option>
+                    </optgroup>
+                </select>
+                </fieldset>
+                <br>
+                <input type="submit" value="Kirim Data">
+        </form>
+
+        <br><br>
+
+        <table border="1">
+            <caption>Daftar Mahasiswa Telkom University</caption>
+            <tr>
+                <td>Nama</td>
+                <td>Kota Asal</td>
+            </tr>
+            <tr>
+                <td>Naufal</td>
+                <td>Jakarta</td>
+            </tr>
+            <tr>
+                <td>Rafif</td>
+                <td>Bekasi</td>
+            </tr>
+        </table>
+
+        <!== list pada tabel==>
+
+        <ul>
+            <li>Naufal</li>
+            <li>Rafif</li>
+        </ul>
+
+        <ol>
+            <li>Naufal</li>
+            <li>Rafif</li>
+        </ol>
+
+        <dl>
+            <dt>Naufal</dt>
+            <dd>Nama Pertama</dd>
+
+            <dt>Rafif</dt>
+            <dd>Nama Kedua</dd>
+        </dl>
+
+
+        <p> &copy; NaufalRafif</p>
+    </body>
+</html>
