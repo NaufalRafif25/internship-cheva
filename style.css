@@ -120,7 +120,7 @@ ul,ol,dl{
     text-align: center;
 }
 h1,h2 {
-    color: grey;
+    /* color: grey; */
     margin: 10px 0;
 }
 input:focus , textarea:focus{
