@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+}
+body{
+    background-color: #E6E6FA;
+    background-image: url("Background.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#menu_wrap{
+    margin: 10px 0 50px 0;
+}
+.menu{
+    display: inline-block;
+    /* height: 50px;
+    width: 100px; */
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px 5px;
+}
+/*Kondisi Biasa*/
+.menu:link {
+    background: grey;
+    color: red;
+}
+/*Kondisi Setelah dikunjung*/
+.menu:visited{
+    background: yellow;
+}
+/*Kondisi hover-mouse berada di atasnya*/
+.menu:hover{
+    background: green;
+}
+/*Sedang diklik*/
+.menu:active{
+    background: blue;
+}
+h1 {
+    color: darkgreen;
+    text-align: center;
+    text-decoration: underline;
+    display: inline;
+}
+h2 {
+    color: blue;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline;
+    /*visibility : hidden;*/
+}
+#text_panjang{
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 20px;
+}
+#text_pendek{
+    font-size: 24px;
+    font-weight: bold;
+    background: yellow;
+    width: 50%;
+    height: 200px;
+    max-width: 30%;
+    max-height: 100px;
+}
+/* Mengatur Posisi di CSS */
+/* #menu_member{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+#parent_h1{
+    position: relative;
+    top: 100px;
+}
+#h1_member{
+    background: red;
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    z-index: -1;
+}
+#parent_h2{
+    position: relative;
+    top: 100px;
+}
+#h2_member{
+    background: yellow;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+} */
+table {
+    float: right;
+    margin-right: 20px;
+}
+#ul_1{
+    float: left;
+    margin-right: 100px;
+}
+#div_baru{
+    clear: both;
+}
+ul,ol,dl{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 33.33%;
+}
+#copyright {
+    clear: both;
+    text-align: center;
+}
+h1,h2 {
+    color: grey;
+    margin: 10px 0;
+}
+input:focus , textarea:focus{
+    background-color: aquamarine;
+}
+div a {
+    color: grey;
+}
+div > a {
+    background: yellow;
+}
+p + div {
+    background: aqua;
+}
+div ~ p {
+    background: red;
+}
